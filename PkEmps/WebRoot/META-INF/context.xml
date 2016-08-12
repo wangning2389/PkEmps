@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Context path="/wonder-mini" reloadable="true">
+  <!-- <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" 
+  maxActive="2" maxIdle="1" maxWait="1000" name="jdbc/zjss" password="ltgt-2013" 
+  type="javax.sql.DataSource" url="jdbc:oracle:thin:@88.0.32.8:1521:zjoadb" username="litigation" removeAbandonedTimeout="60" logAbandoned="true"  removeAbandoned="true" />
+  -->
+ <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" 
+  maxActive="10" maxIdle="5" maxWait="1000" name="jdbc/pszjk" password="pszjk" 
+  type="javax.sql.DataSource" url="jdbc:oracle:thin:@10.72.39.78:1521:orcl" username="pszjk"
+  removeAbandonedTimeout="60" logAbandoned="true"  removeAbandoned="true"  /> 
+</Context>

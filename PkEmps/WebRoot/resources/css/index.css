@@ -1,0 +1,118 @@
+
+/* CSS Document */
+body{ margin:0px; background:#f9f9f9}
+#top{ width:100%; height:53px; background:url(images/top-bj-1485.jpg) repeat-x top #fff;}
+.top10{ margin:10px 0 0 0}
+.center-1{ background:url(images/bj-1.jpg) repeat-x top #fff; width:847px; height:243px; margin:10px 0 0 0}
+	.center-1-nr{ height:203px}
+	.center-1-bt{ font-family:"微软雅黑"; font-size:18px; text-align:center; color:#1e7cb9; height:30px; line-height:30px;clear:both}
+	
+.center-2{ background:url(images/bj-2.jpg) repeat-x top #fff; width:757px; height:242px; margin:10px 0 0 0; padding:10px 40px 0 50px}
+	.center-2-nr{}
+	.center-2-left{ width:563px; height:212px; float:left; }
+	.center-2-left-table{ font-size:12px; line-height:30px ; }
+	.center-2-left-table td{ text-align:center; color:#636363; font-size:14px; font-weight:bold; line-height:20px; height:80px; padding:25px 0 0 0; vertical-align:top}
+	.center-2-left-table td img{ margin:0 0 10px 0}
+	.center-2-left-table td a{ text-decoration:none;color:#636363;}
+	.center-2-left-table td a:hover{ text-decoration:none;color:#636363;}
+		
+		
+.index-table-131210{ width:497px; }
+.index-input-131210{ width:190px; height:30px; line-height:30px; background:url(../images/index-input-131210.jpg) no-repeat; color:#929292; margin:0 5px 0 5px; border:0px; padding:0 0 0 10px;}
+.index-an-131210{ width:85px; height:30px; line-height:30px; background:url(../images/index-dl131210.png) no-repeat; color:#fff;margin:0 5px 0 5px; border:0px; cursor:pointer}
+	.index-wb-1-131210{ color:#fff; font-size:12px; height:30px;  float:left; padding:10px 0 0 0}
+	.index-wb-2-131210{ color:#ddf2ff; float:left;font-size:12px; height:30px; padding:15px 0 0 0; margin:0 70px 0 70px }
+	.index-wb-2-131210 a{ color:#ddf2ff; text-decoration:underline; }
+	.index-wb-3-131210{ color:#ddf2ff; float:left;font-size:12px; height:30px;padding:15px 0 0 0 }
+	.index-wb-3-131210 a{ color:#ddf2ff; text-decoration:underline; }
+	.index-checkbox-131210{}
+		
+	.center-2-right{ width:137px; height:180px; background:url(images/bj-2-right.jpg) no-repeat;float:left; margin:30px 0 0 50px}
+	.center-2-bt{ font-family:"微软雅黑"; font-size:18px; text-align:center; color:#fe7700; height:30px; line-height:30px; clear:both}
+	.center-2-right-table{ font-size:12px; line-height:30px; }
+		.center-2-right-td-1{ color:#c8343a;}
+		.center-2-right-td-2{ color:#ce4076;}
+		.center-2-right-td-3{ color:#ec6c00;}
+		.center-2-right-td-4{ color:#608b11;}
+
+.center-3{ background:url(images/bj-1.jpg) repeat-x top #fff; width:757px; height:239px; margin:10px 0 0 0;padding:10px 40px 0 50px}
+	.center-3-left{ width:563px; height:165px; float:left; }
+	.center-3-right{ width:137px; height:91px; background:url(images/bj-3-right.jpg) no-repeat;float:left; margin:30px 0 0 50px}
+	
+.center-4{width:847px; height:271px; margin:10px 0 0 0;}
+	.center-4-left{ width:411px; height:271px; background:url(images/bj-4-left.jpg) no-repeat; float:left; }
+		.center-4-left-nr{height:231px;}
+	.center-4-right{ width:411px; height:271px; background:url(images/bj-4-right.jpg) no-repeat;float:left; margin:0px 0 0 20px}
+		.center-4-right-nr{height:231px;}
+		.center-4-bt{ font-family:"微软雅黑"; font-size:18px; text-align:center; color:#fe3600; height:30px; line-height:30px; clear:both}
+		
+	
+.center-5{ background:url(images/bj-5.jpg) repeat-x top #f0f4ff; width:847px; height:169px; margin:10px 0 0 0}
+	.center-5-1{ font-family:"微软雅黑"; font-size:18px; text-align:center; color:#1e7cb9; height:30px; line-height:30px;}
+	.center-5-2{font-family:"微软雅黑";font-size:14px; line-height:30px}
+	.center-5-2 span{ 	}
+	.center-5-2-input{width:143px; height:21px; line-height:21px; text-align:left; padding: 0 0 0 5px; background:#f8fbff; border:0px; margin:0 5px 0 5px}
+	.center-5-2-select{width:143px; height:21px; line-height:21px; text-align:left; padding: 0 0 0 5px; background:#f8fbff; border:0px; margin:0 5px 0 5px}
+	.center-5-2-an{ background:url(images/cx.png) no-repeat; width:65px; height:27px; border:0px; cursor:pointer}
+	.center-5-2-table{ background:#fff; margin:5px 0 0 0;border:1px solid #d6d6d6;border-collapse:collapse;}
+	.center-5-2-table td{ text-align:center; border-collapse:collapse;border-right:1px solid #d6d6d6;border-top:1px solid #d6d6d6;}
+	
+	
+	.center-6{ background:url(images/bj-6.jpg) repeat-x top #fff; width:99%; margin:10px 0 10px 0}
+	.center-6-3-table{ margin:5px 0 0 0;border-collapse:collapse;font-family:"微软雅黑";font-size:14px; line-height:30px}
+	.center-6-3-table th{ text-align:center; border-collapse:collapse; font-weight:bold; border-bottom:1px solid #fff;}
+	.center-6-3-table-th2{ text-align:left !important; border-collapse:collapse; font-weight:bold; border-bottom:1px solid #fff;}
+	.center-6-3-table td{ text-align:center; border-collapse:collapse; font-size:12px; vertical-align:top; padding:10px 0 0 0; border-bottom:1px solid #f7f7f7;}
+	.center-6-3-table-td2{ text-align:left !important; border-collapse:collapse; font-size:12px; vertical-align:top; padding:10px 0 0 0; border-bottom:1px solid #f7f7f7;}
+
+
+
+#foot{ width:100%; height:53px; background:url(images/top-bj-1485.jpg) repeat-x top #fff; position:absolute;bottom:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////// custom css*/
+.viewContainer{
+	margin: auto;
+}
+.viewContent { 
+	
+	text-align: center;
+	margin-top: 20px;
+}
+
+.viewContent table {
+	margin: auto;
+}
+
+.viewContent table td {
+	vertical-align: top;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.display-label {
+	/* padding-left: 20px; */
+	text-align: left;
+}
+
+.viewContent table td textarea {
+	text-align: left;
+	margin-left: -40px;
+}

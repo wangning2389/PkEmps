@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="PkEmps"
+  id="myeclipse.1449563653282"
+  context-root="/pszjk"
+  j2ee-spec="5.0"
+  archive="PkEmps.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

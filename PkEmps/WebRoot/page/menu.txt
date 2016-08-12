@@ -1,0 +1,9 @@
+[
+	{id: "100", name: "评审专家管理"},	
+	{id: "110", name: "专家信息维护", parentId: "100", url : "/page/user/ExpUserMaintenance.jsp"},
+	{id: "120", name: "评审专家确认", parentId: "100", url : "/pages/user/UnitUserMaintenance.jsp"},
+	{id: "130", name: "评审专家统计", parentId: "100", url : "/pages/user/UnitUserMaintenance.jsp"},
+	{id: "200", name: "评审会管理"},	
+	{id: "210", name: "评审会维护", parentId: "200", url : "/pages/satisfaction/SatisfiedQuery.jsp"},
+	{id: "220", name: "评审会统计",parentId: "200"},	
+]
