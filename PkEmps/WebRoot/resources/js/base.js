@@ -12,7 +12,7 @@ $(function() {
 								// 1. logon filter
 								if (response.exType == "LOGON_EXC") {
 									alert("您尚未登录或登录已超时!");
-									window.location.href = '/pszjk/page/logon.jsp';
+									window.location.href = '/pkemps/page/logon.jsp';
 //								}
 							}
 //								else {

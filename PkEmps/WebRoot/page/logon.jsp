@@ -73,14 +73,27 @@
 
 <script type="text/javascript">
 $(function() {
+	/*
+	var DEFAULT_VERSION = "8.0";
+	var a=parseInt(DEFAULT_VERSION);
+	console.log(a);
+	var ua = navigator.userAgent.toLowerCase();
+	var isIE = ua.indexOf("msie")>-1;
+	var safariVersion;
+	if(isIE){
+	    safariVersion =  ua.match(/msie ([\d.]+)/)[1];
+	    console.log(safariVersion);
+	}
+	if(parseInt(safariVersion) < parseInt(DEFAULT_VERSION) ){
+	    // 进行你所要的操作
+		mini.alert("当前浏览器版本过低，为了确保业务正常办理，请升级到IE8或以上版本!!");
+	}
+	*/
 	//用户名，密码提示域，自动显示或隐藏
 	var sel = "input[name=username],input[name=password]";
 	$(sel).focus(inputTipHandler);
 	$(sel).blur(inputTipHandler);
-	$(sel).next()
-	$.ajax({
-		url:
-	});
+
 	function inputTipHandler(event) {
 		var jqE = $(this);
 		var isFocused = event.type == "focus";
@@ -145,9 +158,11 @@ function submit() {
              window.location.href="${pageContext.request.contextPath}/module/user.do?method=toFrame"; 
         },
         error: function (jqXHR, textStatus, errorThrown) {
-            var response=$.parseJSON(jqXHR.responseText);
-            alert(response.exMsg);
+           // var response=$.parseJSON(jqXHR.responseText);
+           // alert(response.exMsg);
            // CloseWindow();
+            var msg=mini.decode(jqXHR.responseText);
+            alert(msg.exMsg);
         }
 	});
 }

@@ -5,7 +5,7 @@
   type="javax.sql.DataSource" url="jdbc:oracle:thin:@88.0.32.8:1521:zjoadb" username="litigation" removeAbandonedTimeout="60" logAbandoned="true"  removeAbandoned="true" />
   -->
  <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" 
-  maxActive="10" maxIdle="5" maxWait="1000" name="jdbc/pszjk" password="pszjk" 
-  type="javax.sql.DataSource" url="jdbc:oracle:thin:@10.72.39.78:1521:orcl" username="pszjk"
+  maxActive="10" maxIdle="5" maxWait="1000" name="jdbc/jshr" password="pkcy" 
+  type="javax.sql.DataSource" url="jdbc:oracle:thin:@10.72.39.78:1521:orcl" username="pkcy"
   removeAbandonedTimeout="60" logAbandoned="true"  removeAbandoned="true"  /> 
 </Context>

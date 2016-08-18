@@ -3,7 +3,7 @@
   type="WEB"
   name="PkEmps"
   id="myeclipse.1449563653282"
-  context-root="/pszjk"
+  context-root="/pkemps"
   j2ee-spec="5.0"
   archive="PkEmps.war">
   <attributes>

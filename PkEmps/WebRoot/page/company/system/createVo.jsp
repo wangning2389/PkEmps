@@ -5,8 +5,7 @@
     <title>自动生成标准程序对象</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
-     <script src="${pageContext.request.contextPath }/scripts/boot.js" type="text/javascript"></script>
-    
+<jsp:include page="../../default.jsp" />    
 
     <style type="text/css">
     html, body
