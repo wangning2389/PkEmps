@@ -7,8 +7,7 @@
     <title></title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   
-
-    <script src="${pageContext.request.contextPath }/scripts/boot.js" type="text/javascript"></script>
+<jsp:include page="../default.jsp" /> 
 </head>
 <body>
 
@@ -30,7 +29,7 @@
         </div>
     </div>
     <div id="datagrid1" class="mini-datagrid" style="width:100%;height:400px;" allowResize="true"
-        url="ProjectApply.do?method=getProjectApply"  idField="id" multiSelect="true" 
+        url="${pageContext.request.contextPath}/ProjectApply.do?method=getProjectApply"  idField="id" multiSelect="true" 
     >
         <div property="columns">
             <!--<div type="indexcolumn"></div>        -->
@@ -88,7 +87,7 @@
         grid.load();        
         function add() {     
             mini.open({
-                url: bootPATH + "../page/ProjectApply/ProjectApply_edit.jsp",
+                url: "../ProjectApply/ProjectApply_edit.jsp",
                 title: "新增", width: 700, height: 460,
                 onload: function () {
                     var iframe = this.getIFrameEl();

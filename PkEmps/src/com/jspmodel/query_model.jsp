@@ -6,9 +6,8 @@
 <head>
     <title></title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  
+  <jsp:include page="../default.jsp" />
 
-    <script src="${pageContext.request.contextPath }/scripts/boot.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -30,7 +29,7 @@
         </div>
     </div>
     <div id="datagrid1" class="mini-datagrid" style="width:100%;height:400px;" allowResize="true"
-        url="system.do?method=getmenu"  idField="id" multiSelect="true" 
+        url="${pageContext.request.contextPath}/system.do?method=getmenu"  idField="id" multiSelect="true" 
     >
         <div property="columns">
             <!--<div type="indexcolumn"></div>        -->
@@ -47,7 +46,7 @@
         grid.load();        
         function add() {     
             mini.open({
-                url: bootPATH + "../page/company/system/menu_edit.jsp",
+                url:  "../page/company/system/menu_edit.jsp",
                 title: "新增", width: 700, height: 460,
                 onload: function () {
                     var iframe = this.getIFrameEl();
@@ -64,7 +63,7 @@
             var row = grid.getSelected();
             if (row) {
                 mini.open({
-                    url: bootPATH + "../page/company/system/menu_edit.jsp",
+                    url:"../page/company/system/menu_edit.jsp",
                     title: "编辑", width: 700, height: 460,
                     onload: function () {
                         var iframe = this.getIFrameEl();

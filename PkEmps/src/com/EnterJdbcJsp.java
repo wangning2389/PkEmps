@@ -39,7 +39,7 @@ public class EnterJdbcJsp
     
     public String createJspForQuery(String tablename, String vopage, String index)
     {
-        String getUrl = Const.path + "/WebRoot/page/" + tablename.toLowerCase();
+        String getUrl = Const.path + "/WebRoot/page/" + tablename;
         String getUrlJsp = Const.path + "/WebRoot/page/" + tablename + "/" + tablename + ".jsp";
         StringBuffer sb = new StringBuffer();
         try
@@ -71,7 +71,7 @@ public class EnterJdbcJsp
                 if (str.contains("getmenu"))
                     str = str.replaceAll("getmenu", "get" + tablename);
                 if (str.contains("page/company/system/menu_edit.jsp"))
-                    str = str.replaceAll("page/company/system/menu_edit.jsp", "page/" + tablename + "/" + tablename
+                    str = str.replaceAll("page/company/system/menu_edit.jsp", "/" + tablename + "/" + tablename
                         + "_edit.jsp");
                 if (str.contains("removemenu"))
                     str = str.replaceAll("removemenu", "remove" + tablename);
